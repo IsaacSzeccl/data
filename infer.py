@@ -14,7 +14,7 @@ def parse_args():
     parser.add_argument("--validation_mask", type=str, required=True, help="Path to the validation mask")
     parser.add_argument("--output_dir", type=str, required=True, help="Output directory for generated images")
     parser.add_argument("--seed", type=int, default=0, help="Random seed for reproducibility")
-    parser.add_argument("--num_images", type=int, default=16, help="Number of output infer images")
+    parser.add_argument("--num_images", type=int, default=8, help="Number of output infer images")
     return parser.parse_args()
 
 def main():
